@@ -1,1 +1,23 @@
 "# taller-git-y-github-ccat" 
+PASOS:
+
+1.Crear un repositorio público en GitHub con su cuenta personal.
+2.Seguir las indicaciones "…or create a new repository on the command line" que surgen al crear el repositorio.
+echo "# nombre_repositorio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tu_usuario/nombre_repositorio.git
+git push -u origin main
+3.Crear la rama "develop" desde GitHub.
+4.Dirigirse a la rama "develop".
+5.Crear un archivo receta.txt y digitar la receta en él.
+6.Subir los cambios al repositorio en GitHub.
+7.Dirigirse a la rama "main".
+8.Fusionar las ramas.
+9.Subir los cambios al repositorio en GitHub.
+10.Desde la rama "develop" modificar el archivo receta.txt. 
+11.Subir los cambios al repositorio en GitHub.
+12.Solicitar un pull request.
+13.Aprobar pull request.  
